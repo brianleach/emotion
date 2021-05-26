@@ -44,9 +44,9 @@ Or use `expect.addSnapshotSerializer` to add it like this:
 
 
 ```javascript
-import { createEnzymeSerializer } from '@emotion/jest/enzyme-serializer' // also adds the enzyme-to-json serializer
+import { createEnzymeSerializer } from '@emotion/jest/enzyme'; // also adds the enzyme-to-json serializer
 
-expect.addSnapshotSerializer(createEnzymeSerializer())
+expect.addSnapshotSerializer(createEnzymeSerializer());
 ```
 
 ### Writing a test
